@@ -1,0 +1,6 @@
+{
+  "name": "Avenza Property",
+  "description": "Premium Properties Across Tamil Nadu - Discover homes and land, explore Tamil Nadu locations, and get ML-powered property valuations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

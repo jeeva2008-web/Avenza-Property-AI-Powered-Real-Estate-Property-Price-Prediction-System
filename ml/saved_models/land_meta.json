@@ -1,0 +1,37 @@
+{
+  "model_type": "land",
+  "best_model_name": "Gradient Boosting Regressor",
+  "feature_names": [
+    "locality_base_rate",
+    "type_multiplier",
+    "land_area",
+    "road_width",
+    "dist_main_road",
+    "dist_school",
+    "dist_hospital",
+    "dist_transport"
+  ],
+  "evaluation_metrics": [
+    {
+      "modelName": "Linear Regression",
+      "r2": 0.7301,
+      "mae": 18508235.66,
+      "rmse": 30063727.99,
+      "isBest": false
+    },
+    {
+      "modelName": "Random Forest Regressor",
+      "r2": 0.9892,
+      "mae": 3057807.1,
+      "rmse": 6020171.64,
+      "isBest": false
+    },
+    {
+      "modelName": "Gradient Boosting Regressor",
+      "r2": 0.99,
+      "mae": 2530118.28,
+      "rmse": 5784686.91,
+      "isBest": true
+    }
+  ]
+}

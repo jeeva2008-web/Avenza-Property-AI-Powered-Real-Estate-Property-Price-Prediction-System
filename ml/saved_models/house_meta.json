@@ -1,0 +1,47 @@
+{
+  "model_type": "house",
+  "best_model_name": "Gradient Boosting Regressor",
+  "feature_names": [
+    "locality_base_rate",
+    "type_multiplier",
+    "built_up_area",
+    "land_area",
+    "bedrooms",
+    "bathrooms",
+    "floors",
+    "parking",
+    "property_age",
+    "road_width",
+    "dist_school",
+    "dist_hospital",
+    "dist_supermarket",
+    "dist_bus_stop",
+    "dist_rail_metro",
+    "dist_bank_atm",
+    "dist_park",
+    "dist_main_road"
+  ],
+  "evaluation_metrics": [
+    {
+      "modelName": "Linear Regression",
+      "r2": 0.8961,
+      "mae": 2656045.49,
+      "rmse": 3991024.69,
+      "isBest": false
+    },
+    {
+      "modelName": "Random Forest Regressor",
+      "r2": 0.9637,
+      "mae": 1590346.14,
+      "rmse": 2358517.59,
+      "isBest": false
+    },
+    {
+      "modelName": "Gradient Boosting Regressor",
+      "r2": 0.9846,
+      "mae": 973159.09,
+      "rmse": 1538471.27,
+      "isBest": true
+    }
+  ]
+}
